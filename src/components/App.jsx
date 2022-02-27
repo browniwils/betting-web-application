@@ -1,4 +1,15 @@
 import "./App.css";
+import Header from "./header/header";
+import Main from "./main/main";
+import FooterCanvas from "./footerCanvas";
 
-function App() {}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Main />
+      <FooterCanvas />
+    </>
+  );
+};
 export default App;
